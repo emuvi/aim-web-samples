@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "moduleResolution": "classic",
+        "sourceMap": true,
+        "declaration": true,
+        "declarationDir": "types",
+        "declarationMap": true,
+        "removeComments": true,
+        "outDir": "build"
+    },
+    "include": [
+        "src/*.ts"
+    ]
+}
