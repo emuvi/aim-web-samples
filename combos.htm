@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combos</title>
+</head>
+
+<body>
+  <select name="selTest" id="selTest" onchange="test()">
+    <option value="o1">Test 1</option>
+    <option value="o2">Test 2</option>
+    <option value="o3">Test 3</option>
+  </select>
+
+  <script>
+    function test() {
+      var sel = document.getElementById("selTest");
+      var selVal = sel.options[sel.selectedIndex].value;
+      console.log(selVal);
+    }
+  </script>
+</body>
+
+</html>
